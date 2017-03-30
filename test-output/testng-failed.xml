@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dependency Test Suite]">
+  <test name="DependencyTest(failed)">
+    <classes>
+      <class name="testPackage.DependsOnTesting">
+        <methods>
+          <include name="Method2"/>
+          <include name="Method3"/>
+          <include name="Method5"/>
+          <include name="Method6"/>
+          <include name="Method7"/>
+          <include name="Method4"/>
+        </methods>
+      </class> <!-- testPackage.DependsOnTesting -->
+    </classes>
+  </test> <!-- DependencyTest(failed) -->
+</suite> <!-- Failed suite [Dependency Test Suite] -->

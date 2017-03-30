@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Groups inside the Groups">
+	<test name="Include and Exclude the Groups">
+		<groups>
+			<define name="functional">
+				<include name="functional" />
+				<include name="checkIn" />
+			</define>
+			<define name="all">
+				<include name="functional" />
+				<include name="checkIn" />
+				<include name="windows.*" />
+				<include name="linux.*" />
+			</define>
+			<define name="Windows">
+				<include name="windows.*"/>
+			</define>
+			<define name="Linux">
+				<include name="linux.*"/>
+			</define>
+			<run>
+				<include name="functional" />
+			</run>
+		</groups>	
+		<classes>
+			<class name="testPackage.GroupRegularExp" />
+			<class name="testPackage.GroupTesting" />
+		</classes>	
+	</test>
+</suite>

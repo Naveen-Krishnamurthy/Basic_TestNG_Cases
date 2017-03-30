@@ -1,0 +1,7 @@
+<suite name="OnlyPackageTestSuite">
+	<test name="OnlyPackageTestNg">
+		<packages>
+			<package name="testPackage" />
+		</packages>
+	</test>
+</suite>

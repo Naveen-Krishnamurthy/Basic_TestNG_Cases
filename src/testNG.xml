@@ -1,0 +1,20 @@
+<suite name="firstTestSuite">
+	<test name="FirstTestNg" preserve-order="true">
+	<packages>
+		<package name="testPackage">
+			<classes>
+				<class name="testPackage.Annotation_Test" />
+				<class name="testPackage.BeforeAfterSet" />
+			</classes>
+		</package>
+	</packages>
+	</test>
+	
+	<test name="SecondTestNg" preserve-order="false">
+		<classes>
+			<class name="testPackage.AnnotationTest2" />
+			<class name="testPackage.BeforeAfterSet" />
+		</classes>
+	</test>
+	
+</suite>

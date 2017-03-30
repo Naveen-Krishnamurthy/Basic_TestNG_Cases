@@ -1,0 +1,10 @@
+<suite name="OnlyGroupsTesting">
+	<test name="OnlyGroupTesting" preserve-order="true">
+		<groups>
+			<run>
+				<include name="checkIn"/>
+			</run>
+		</groups>
+	</test>
+	
+</suite>

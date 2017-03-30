@@ -1,0 +1,13 @@
+<suite name="firstTestSuite">
+	<test name="SelectGroups">
+		<groups>
+			<run>
+				<include name="checkIn" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testPackage.GroupTesting" />
+		</classes>	
+	</test>
+	
+</suite>

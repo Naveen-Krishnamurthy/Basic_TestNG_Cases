@@ -1,0 +1,11 @@
+<suite name="firstTestSuite">
+	<test name="DataProvider">
+	<packages>
+		<package name="DataProviderTesting">
+			<classes>
+				<class name="testPackage.DataProviderTest" />
+			</classes>
+		</package>
+	</packages>
+	</test>
+</suite>

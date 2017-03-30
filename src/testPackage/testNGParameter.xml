@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testing the parameters">
+	<test name="parameter">
+		<parameter name="testValue" value="Parameter Pass"/>
+		<classes>
+			<class name="testPackage.AnnotateParameter" />
+		</classes>
+	</test>
+</suite>

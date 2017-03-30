@@ -1,0 +1,7 @@
+<suite name="Dependency Test Suite">
+	<test name="DependencyTest" preserve-order="true">
+		<classes>
+			<class name="testPackage.DependsOnTesting" />
+		</classes>
+	</test>
+</suite>
