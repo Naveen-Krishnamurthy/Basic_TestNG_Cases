@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Factory Testing">
+	<test name="Factroy Testing Method">
+		<classes>
+			<class name="FactoryMethodTesting.FactoryClass"/>
+		</classes>
+	</test>
+</suite>
