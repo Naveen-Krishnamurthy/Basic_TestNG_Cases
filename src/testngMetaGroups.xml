@@ -1,0 +1,25 @@
+<suite name="testng metagroup">
+    <test name="meta group testing" preserve-order="">
+        <groups>
+            <define name="WindowsMainTest">
+                <include name="windows"/>
+                <include name="Arsenal"/>
+            </define>
+            <define name="all">
+                <include name="windows"/>
+                <include name="Arsenal"/>
+                <include name="linux"/>
+            </define>
+            <define name="LinuxMainTest">
+                <include name="linux"/>
+                <include name="Arsenal"/>
+            </define>
+            <run>
+                <include name="LinuxMainTest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testPackage.MetaGroupTest"/>
+        </classes>
+    </test>
+</suite>

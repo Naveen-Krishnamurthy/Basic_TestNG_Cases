@@ -5,6 +5,22 @@
 				<include name="checkIn"/>
 			</run>
 		</groups>
+		<classes>
+			<class name="testPackage.GroupTesting"/>
+		</classes>
 	</test>
-	
+
+	<test name="RegularGroupExpression">
+		<groups>
+			<run>
+				<include name="windows.*"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="testPackage.GroupRegularExp"/>
+		</classes>
+	</test>
+
+
+
 </suite>

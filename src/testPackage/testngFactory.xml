@@ -1,0 +1,7 @@
+<suite name="TestFactory">
+    <test name="firstTestFactory">
+        <classes>
+            <class name="testPackage.FactoryTest"/>
+        </classes>
+    </test>
+</suite>

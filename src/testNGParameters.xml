@@ -1,0 +1,11 @@
+<suite name="ParameterTest">
+    <parameter name="TestParameter" value="testParameter"/>
+    <parameter name="FirstName" value="Naveen"/>
+    <parameter name="LastName" value="Krishnamurthy"/>
+    <parameter name="DOB" value="10111988"/>
+    <test name="MultipleParameters">
+        <classes>
+            <class name="testPackage.ParametersTest"/>
+        </classes>
+    </test>
+</suite>
